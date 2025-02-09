@@ -4,20 +4,22 @@ import { Container,Row,Col,ListGroup,ListGroupItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.webp';
 
+const url='Tourism_frontend'
+
 const quick__links=[
     {
-        path:'/home',
+        path:`${url}/home`,
         display:'Home'
     },
     {
-        path:'/gallery',
+        path:`${url}/gallery`,
         display:'Gallery'
     },
     {
-        path:'/tours',
+        path:`${url}/tours`,
         display:'Tours'
     },
-];
+]
 
 const quick__links2=[
     // {
@@ -25,11 +27,11 @@ const quick__links2=[
     //     display:'Gallery'
     // },
     {
-        path:'/login',
+        path:`${url}/login`,
         display:'Login'
     },
     {
-        path:'/register',
+        path:`${url}/register`,
         display:'Register'
     },
 ]

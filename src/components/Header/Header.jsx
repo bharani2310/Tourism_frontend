@@ -4,42 +4,46 @@ import {NavLink,Link , useNavigate , useLocation} from 'react-router-dom';
 
 import logo from '../../assets/images/logo.webp';
 import './header.css'
-
 import { AuthContext } from '../../context/AuthContext';
+
+
+const url='Tourism_frontend'
 
 
 const nav__links=[
     {
-        path:'/home',
+        path:`${url}/home`,
         display:'Home'
     },
     {
-        path:'/gallery',
+        path:`${url}/gallery`,
         display:'Gallery'
     },
     {
-        path:'/tours',
+        path:`${url}/tours`,
         display:'Tours'
     },
 ]
 
 
 
+
+
 const Header = () => {
 const location = useLocation();
-const isActive = location.pathname === '/dashboard' || location.pathname === '/admin-dashboard' ;
-const isLoginPage=location.pathname==='/login';
+const isActive = location.pathname === `${url}/dashboard` || location.pathname === `${url}/admin-dashboard` ;
+const isLoginPage=location.pathname===`${url}/login`;
 const headerRef = useRef(null)
 const menuRef = useRef(null)
 const navigate = useNavigate();
 const {user,dispatch} = useContext(AuthContext)
-const destination = user && user.role === 'admin' ? '/admin-dashboard' : '/dashboard';
+const destination = user && user.role === 'admin' ? `${url}/admin-dashboard` : `${url}/dashboard`;
 
 
    
 const logout = () =>{
     dispatch({type:'LOGOUT'})
-    navigate('/');
+    navigate(`${url}/`);
 }
 
 const stickyHeaderfunc = ()=>{
@@ -95,10 +99,10 @@ useEffect(()=>{
                                     <Button className='btn btn-dark' onClick={logout}>Logout</Button>
                                 </> : <>
                                 <Button className={isLoginPage ? 'active-color' : 'normal-color'}>
-                                <Link to='/login'>Login</Link></Button>
+                                <Link to={`${url}/login`}>Login</Link></Button>
 
                               <Button className="btn primary__btn">
-                                <Link to='/register'>Register</Link></Button>
+                                <Link to={`${url}/register`}>Register</Link></Button>
                                 </>
                             }
 
