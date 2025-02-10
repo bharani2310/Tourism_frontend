@@ -8,15 +8,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { AuthContextProvider } from "./context/AuthContext";
 
-import { BrowserRouter } from "react-router-dom"; 
+import { HashRouter } from "react-router-dom"; 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <AuthContextProvider>
-    <BrowserRouter>
+    <HashRouter>
        <App />
-    </BrowserRouter>
+    </HashRouter>
     </AuthContextProvider>
   </React.StrictMode>
 );
