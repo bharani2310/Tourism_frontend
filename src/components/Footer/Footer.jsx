@@ -4,7 +4,7 @@ import { Container,Row,Col,ListGroup,ListGroupItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.webp';
 
-const url='Tourism_frontend'
+const url=''
 
 const quick__links=[
     {

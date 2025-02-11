@@ -7,7 +7,7 @@ import './header.css'
 import { AuthContext } from '../../context/AuthContext';
 
 
-const url='Tourism_frontend'
+const url=''
 
 
 const nav__links=[
