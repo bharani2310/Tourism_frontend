@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Tourism_frontend/static/css/main.ca25c86d.css",
-    "main.js": "/Tourism_frontend/static/js/main.bf01d78d.js",
+    "main.css": "/Tourism_frontend/static/css/main.10d5369b.css",
+    "main.js": "/Tourism_frontend/static/js/main.103a39ab.js",
+    "static/media/logo.png": "/Tourism_frontend/static/media/logo.e7a8da48e321454bb9f2.png",
     "static/media/remixicon.svg?t=1590207869815": "/Tourism_frontend/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/2.webp": "/Tourism_frontend/static/media/2.5ee939d1afcc80fd6d55.webp",
     "static/media/gallery-05.jpg": "/Tourism_frontend/static/media/gallery-05.b9ac65965f1e62343d58.jpg",
@@ -47,18 +48,17 @@
     "static/media/user.png": "/Tourism_frontend/static/media/user.cb965e265fe56c8ca8ca.png",
     "static/media/musuem.webp": "/Tourism_frontend/static/media/musuem.b3448952c423175a72b7.webp",
     "static/media/cuisine.webp": "/Tourism_frontend/static/media/cuisine.8a230a0aa4e7af7c5ab8.webp",
-    "static/media/logo.webp": "/Tourism_frontend/static/media/logo.0a5f67cc666da2ebf1db.webp",
     "static/media/lakes.webp": "/Tourism_frontend/static/media/lakes.d39d24c3712ed775bb37.webp",
     "static/media/slick.svg": "/Tourism_frontend/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Tourism_frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Tourism_frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Tourism_frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Tourism_frontend/index.html",
-    "main.ca25c86d.css.map": "/Tourism_frontend/static/css/main.ca25c86d.css.map",
-    "main.bf01d78d.js.map": "/Tourism_frontend/static/js/main.bf01d78d.js.map"
+    "main.10d5369b.css.map": "/Tourism_frontend/static/css/main.10d5369b.css.map",
+    "main.103a39ab.js.map": "/Tourism_frontend/static/js/main.103a39ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca25c86d.css",
-    "static/js/main.bf01d78d.js"
+    "static/css/main.10d5369b.css",
+    "static/js/main.103a39ab.js"
   ]
 }
