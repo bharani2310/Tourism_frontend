@@ -4,9 +4,19 @@
     line-height: 100px;
 }
 
-.logo img{
-    width: 50%;
-}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-img {
+    max-width: 150px;  /* adjust size as needed */
+    height: auto;
+    object-fit: contain;
+    margin-right: 200px;
+  }
+  
 .menu{
     margin-bottom: 0;
 }

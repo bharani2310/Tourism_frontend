@@ -57,6 +57,7 @@ function CreateForm({ onSubmit }) {
 
 
   async function createTour(data) {
+    console.log("Server data",data)
     try {
       const response = await fetch(`${BASE_URL}/tours`, {
         method: 'POST',

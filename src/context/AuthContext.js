@@ -18,7 +18,7 @@ const AuthReducer = (state,action) => {
             };
 
         case 'LOGIN_SUCCESS' :
-            //console.log(action.payload.role)
+            console.log(action.payload)
             return {
                 user : action.payload,
                 loading : false ,

@@ -31,7 +31,7 @@ const Home = () => {
                             <div>
                                 <TypeAnimation 
                                 sequence={[
-                                    'Welcome to Tamil Nadu',
+                                    'Welcome to Voyage Vibe',
                                     2000,
                                     'where stories never end',
                                     2000,

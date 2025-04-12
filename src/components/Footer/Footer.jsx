@@ -2,7 +2,7 @@ import React from 'react' ;
 import './footer.css';
 import { Container,Row,Col,ListGroup,ListGroupItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.webp';
+import logo from '../../assets/images/logo.png';
 
 const url=''
 
@@ -87,7 +87,7 @@ const Footer = () => {
                     </Col>
 
                     <Col lg='3'>
-                        <h5 className='footer__link-title'>Discover</h5>
+                        <h5 className='footer__link-title'>Enroll</h5>
                         <ListGroup className='footer__quick-links'>
                             {
                                 quick__links2.map((item,index)=>(
@@ -109,7 +109,7 @@ const Footer = () => {
                                             <span><i className='ri-map-pin-line'/></span>
                                             Address:
                                         </h6>
-                                        <p className='mb-0'>TamilNadu</p>                                        
+                                        <p className='mb-0'>Voyage Vibe , Chennai , TamilNadu</p>                                        
                                     </ListGroupItem>
                             }
                             {
@@ -119,7 +119,7 @@ const Footer = () => {
                                         <span><i className='ri-mail-line'/></span>
                                         Email:
                                     </h6>
-                                    <p className='mb-0'>tamilnadutourism@gmail.com</p>                                        
+                                    <p className='mb-0'>voyagevibe@gmail.com</p>                                        
                                 </ListGroupItem>
                         }
                         {

@@ -2,7 +2,7 @@ import React,{useRef,useEffect , useContext} from 'react' ;
 import { Container, Row,Button} from 'reactstrap';
 import {NavLink,Link , useNavigate , useLocation} from 'react-router-dom';
 
-import logo from '../../assets/images/logo.webp';
+import logo from '../../assets/images/logo.png';
 import './header.css'
 import { AuthContext } from '../../context/AuthContext';
 
@@ -70,9 +70,7 @@ useEffect(()=>{
                 <div className='nav__wrapper d-flex align-items-center justify-content-between'>
                     {/*===== logo ===== */}
                     <div className='logo'>
-                        <img src={logo} alt=""/>  
-
-                        
+                        <img src={logo} alt="Voyage Vibe Logo" className="logo-img" />
                     </div>
                     {/*===== logo end ===== */}
 
