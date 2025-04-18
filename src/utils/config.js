@@ -3,4 +3,4 @@
 
 
 // export const  BASE_URL = 'https://api.bharanidharan.in/portfolio';
-export const  BASE_URL = 'http://192.168.1.140:4000/tour';
+export const  BASE_URL = 'https://backend-nl7u.onrender.com/tour';
